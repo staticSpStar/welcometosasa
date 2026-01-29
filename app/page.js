@@ -102,7 +102,7 @@ export default function Home() {
               <div className="absolute w-full h-full [backface-visibility:hidden] 
                 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/pc.png"
+                  src="/welcometosasa/pc.png"
                   alt="카드 뒷면"
                   fill
                   className="object-cover"
