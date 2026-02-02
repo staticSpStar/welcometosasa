@@ -8,9 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "deploy": "next build && npx shx touch out/.nojekyll && git add -f out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
-
   },
   "dependencies": {
+    "mongodb": "^7.0.0",
     "next": "16.1.4",
     "react": "19.2.3",
     "react-dom": "19.2.3"
