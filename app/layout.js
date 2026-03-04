@@ -2,19 +2,18 @@ import { Geist, Geist_Mono, Jersey_10 } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const geistSans = localFont({
+    src: "../public/Geist-VariableFont_wght.ttf",
+    variable: "--font-geist-sans",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const geistMono = localFont({
+    src: "../public/GeistMono-VariableFont_wght.ttf",
+    variable: "--font-geist-mono",
 });
 
-const jersey10 = Jersey_10({
-    weight: "400",
-    subsets: ["latin"],
+const jersey10 = localFont({
+    src: "../public/Jersey10-Regular.ttf",
     variable: "--font-jersey",
 });
 
